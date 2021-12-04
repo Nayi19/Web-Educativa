@@ -20,7 +20,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     
     path('Usuarios/api/', include('Usuarios.urls')),
-   # path('notas/api/', include('Calificaciones.urls')),
+    path('Asignaturas/api/', include('Asignaturas.urls')),
    # path('docente/api/', include('Usuarios.urls')),
 
 
